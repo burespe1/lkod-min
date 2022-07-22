@@ -1,24 +1,24 @@
 {
     "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
-    "iri": "https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/katalog.jsonld",
+    "iri": "https://raw.githubusercontent.com/burespe1/lkod-min/main/katalog.jsonld",
     "typ": "Katalog",
     "název": {
-        "cs": "Lokální katalog otevřených dat",
-        "en": "Local open data catalog"
+        "cs": "Katalog otevřených dat o silniční dopravě",
+        "en": "Road Traffic Open Data Catalogue"
     },
     "popis": {
-        "cs": "Lokální katalog otevřených dat",
-        "en": "Local open data catalog"
+        "cs": "Otevřená data o silniční dopravě. Obsahuje informace související s bezpečností silničního provozu odvozené od informací publikovaných NDIC na https:\\mobilitydata.rsd.cz"
+        "en": "Open data on road transport. It contains road safety related information derived from information published by NDIC at https:\\mobilitydata.rsd.cz"
     },
     "kontaktní_bod": {
         "typ": "Organizace",
         "jméno": {
-          "cs": "Jan Novák",
-          "en": "John Newman"
+          "cs": "Petr Bureš",
+          "en": "Petr Bures"
         },
-        "e-mail": "mailto:newman@organization.cz"
+        "e-mail": "mailto:petr.bures@tamtamresearch.com"
     },
-    "domovská_stránka": "https://data.gov.cz",
-    "poskytovatel": "https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008",
+    "domovská_stránka": "https://mobilitydata.cz",
+    "poskytovatel": "https://www.hlidacstatu.cz/subjekt/29381126",
     "datová_sada": []
 }
