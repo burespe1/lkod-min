@@ -1,0 +1,95 @@
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "iri": "https://raw.githubusercontent.com/burespe1/lkod-min/main/datové-sady/datová-sada.jsonld",
+  "typ": "Datová sada",
+  "název": {
+    "cs": "Dopravní informace souvisící s bezpečností provozu",
+    "en": "Safety-related traffic information"
+  },
+  "popis": {
+    "cs": "Dopravní informace související s bezpečností silničního provozu z celé ČR dle Nařízení EK [https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32013R0886]. Data jsou podmnožinou zdroje dat [DATEX II - Běžné dopravní informace] z NDIC ČR a jsou transformována do formátu otevřených dat, dostupná prostřednictvím koncového bodu služby SPARQL jako individuální dopravní informace i jako ucelené snímky v čase.\n\nZdrojem digitalizovaných informací o silničním provozu je NDIC",
+    "en": "Traffic information from the whole Czechia related to road safety according to the EC Regulation [https://eur-lex.europa.eu/legal-content/CS/TXT/HTML/?uri=CELEX:32013R0886]. The data are a subset of the data source [DATEX II - Common Traffic Information] from NDIC CR and are transformed into open data format, available via SPARQL endpoint as individual traffic information and as comprehensive snapshots in time.\n\nThe source of digitised traffic information is NTIC"
+  },
+  "prvek_rúian": [
+    "https://linked.cuzk.cz/resource/ruian/stat/1"
+  ],
+  "geografické_území": [
+    "http://publications.europa.eu/resource/authority/continent/EUROPE",
+    "http://publications.europa.eu/resource/authority/country/CZE"
+  ],
+  "prostorové_pokrytí": [],
+  "časové_pokrytí": {
+    "typ": "Časový interval",
+    "začátek": "2022-07-01"
+  },
+  "klíčové_slovo": {
+    "cs": [
+      "dopravní informace ",
+      "bezpečnost provozu ",
+      "události",
+      "nehody",
+      "SRTI"
+    ],
+    "en": [
+      "traffic information",
+      "traffic safety",
+      "incidents",
+      "accidents",
+      "SRTI"
+    ]
+  },
+  "periodicita_aktualizace": "http://publications.europa.eu/resource/authority/frequency/IRREG",
+  "dokumentace": "https://registr.dopravniinfo.cz/cs/sources/cz-ndic_rdf-srti/",
+  "téma": [
+    "http://publications.europa.eu/resource/authority/data-theme/TRAN"
+  ],
+  "koncept_euroVoc": [
+    "http://eurovoc.europa.eu/4539"
+  ],
+  "časové_rozlišení": "PT01S",
+  "prostorové_rozlišení_v_metrech": 12,
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "TamTam Research s.r.o."
+    },
+    "e-mail": "mailto:info@tamtamresearch.com"
+  },
+  "poskytovatel": "https://www.hlidacstatu.cz/subjekt/29381126",
+  "distribuce": [
+    {
+      "typ": "Distribuce",
+      "iri": "https://raw.githubusercontent.com/burespe1/lkod-min/main/datové-sady/dopravní-informace-souvisící-s-bezpečností-provozu.jsonld/distribuce/0",
+      "název": {
+        "cs": "koncový bod služby SPARQL",
+        "en": "SPARQL service endpoint"
+      },
+      "podmínky_užití": {
+        "typ": "Specifikace podmínek užití",
+        "autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor": {
+          "cs": "Ředitelství silnic a dálnic, Odbor silniční databanky a NDIC"
+        },
+        "databáze_jako_autorské_dílo": "https://creativecommons.org/licenses/by/4.0/",
+        "autor_databáze": {
+          "cs": "Ředitelství silnic a dálnic, Odbor silniční databanky a NDIC"
+        },
+        "databáze_chráněná_zvláštními_právy": "https://data.gov.cz/podmínky-užití/není-chráněna-zvláštním-právem-pořizovatele-databáze/",
+        "osobní_údaje": "https://data.gov.cz/podmínky-užití/neobsahuje-osobní-údaje/"
+      },
+      "přístupové_url": "https://mobilitydata.cz/sparql",
+      "přístupová_služba": {
+        "typ": "Datová služba",
+        "přístupový_bod": "https://mobilitydata.cz/sparql",
+        "popis_přístupového_bodu": "https://mobilitydata.cz",
+        "iri": "https://raw.githubusercontent.com/burespe1/lkod-min/main/datové-sady/dopravní-informace-souvisící-s-bezpečností-provozu.jsonld/distribuce/0/přístupová-služba",
+        "název": {
+          "cs": "koncový bod služby SPARQL",
+          "en": "SPARQL service endpoint"
+        },
+        "poskytuje_datovou_sadu": "https://raw.githubusercontent.com/burespe1/lkod-min/main/datové-sady/dopravní-informace-souvisící-s-bezpečností-provozu.jsonld",
+        "specifikace": "https://mobilitydata.cz"
+      }
+    }
+  ]
+}

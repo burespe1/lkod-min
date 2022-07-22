@@ -1,1 +1,20 @@
-{"@context":"https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld","iri":"https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/katalog.jsonld","typ":"Katalog","název":{"cs":"Lokální katalog otevřených dat","en":"Local open data catalog"},"popis":{"cs":"Lokální katalog otevřených dat","en":"Local open data catalog"},"kontaktní_bod":{"typ":"Organizace","jméno":{"cs":"Jan Novák","en":"John Newman"},"e-mail":"mailto:newman@organization.cz"},"domovská_stránka":"https://data.gov.cz","poskytovatel":"https://rpp-opendata.egon.gov.cz/odrpp/zdroj/orgán-veřejné-moci/66003008","datová_sada":["https://raw.githubusercontent.com/opendata-mvcr/lkod-min/main/datové-sady/datová-sada.jsonld"]}
+{
+  "@context": "https://ofn.gov.cz/rozhraní-katalogů-otevřených-dat/2021-01-11/kontexty/rozhraní-katalogů-otevřených-dat.jsonld",
+  "@type": [
+    "Katalog",
+    "https://data.gov.cz/slovník/nkod/DcatApLkod"
+  ],
+  "přístupový_bod": "https://raw.githubusercontent.com/burespe1/lkod-min/main/katalog.jsonld",
+  "název": {
+    "cs": "Katalog otevřených dat o silniční dopravě ",
+    "en": "Road Traffic Open Data Catalogue"
+  },
+  "kontaktní_bod": {
+    "typ": "Organizace",
+    "jméno": {
+      "cs": "Petr Bureš"
+    },
+    "e-mail": "mailto:petr.bures@tamtamresearch.com"
+  },
+  "domovská_stránka": "https://mobilitydata.cz"
+}
